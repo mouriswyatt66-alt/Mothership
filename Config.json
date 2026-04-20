@@ -1,0 +1,108 @@
+{
+  "server": {
+    "host": "0.0.0.0",
+    "port": 5000,
+    "debug": true
+  },
+  "game": {
+    "title_id": "f3e9fb19",
+    "env_id": "7f3a99dd-5598-4725-98cf-6538d28feb9f",
+    "token_expiry_seconds": 3600
+  },
+  "default_inventory": {
+    "d4a0fad9-4602-435d-b379-cd5f69fb4321": {
+      "in_game_id": "SI_TECH_POINTS",
+      "name": "SI_TechPoints",
+      "quantity": 8
+    },
+    "078b85fb-c0d9-44d5-a3ca-e325819b13cd": {
+      "in_game_id": "SI_STRANGE_WOOD",
+      "name": "SI_StrangeWood",
+      "quantity": 8
+    },
+    "5150d276-db1a-4263-bff4-edbe7b55f841": {
+      "in_game_id": "SI_VIBRATING_SPRING",
+      "name": "SI_VibratingSpring",
+      "quantity": 8
+    },
+    "8040ba58-afaa-44d3-bc0a-4d7864abf45d": {
+      "in_game_id": "SI_BOUNCY_SAND",
+      "name": "SI_BouncySand",
+      "quantity": 8
+    },
+    "11844689-b2d0-4f02-923f-3bf49ba3aac6": {
+      "in_game_id": "SI_FLOPPY_METAL",
+      "name": "SI_FloppyMetal",
+      "quantity": 8
+    },
+    "427839b6-58a4-4e8b-9cb4-3d48cb1fb513": {
+      "in_game_id": "SI_WEIRD_GEAR",
+      "name": "SI_WeirdGear",
+      "quantity": 8
+    },
+    "88342aff-549c-42dc-9998-ccc8160ba254": {
+      "in_game_id": "GR_RESEARCH_POINTS",
+      "name": "GR_ResearchPoints",
+      "quantity": 50
+    }
+  },
+  "title_data": {
+    "MOTD": "WELCOME TO THE GAME!\n\nNEW CONTENT AVAILABLE NOW.",
+    "CityEventCountdownTimer": "5/1/2026 6:00:00 PM",
+    "ActivationReferenceDate": "4/17/2026 5:00:00 PM",
+    "COC": "-NO RACISM, SEXISM, HOMOPHOBIA, OR BIGOTRY\n-NO CHEATS OR MODS\n-DO NOT HARASS OTHER PLAYERS\n-PLEASE BE NICE AND HAVE A GOOD TIME",
+    "GorillanalyticsChance": "4320",
+    "AutoMuteCheckedHours": "{\"hours\": 169}",
+    "EnableCustomAuthentication": "true",
+    "SeasonalStoreBoardSign": "NEW SEASON\nNEW ITEMS!\n--\nCHECK IT OUT",
+    "VIMMessageBoard": "\nWELCOME BACK\nPLAYER!\n\nCHECK THE\nDEALS TODAY\n"
+  },
+  "progression_nodes": [
+    {"name": "Initialize",              "cost": 0,  "unlocked": true},
+    {"name": "Stilt_Unlock",            "cost": 8,  "unlocked": false},
+    {"name": "Stilt_Short",             "cost": 12, "unlocked": false},
+    {"name": "Stilt_Long",              "cost": 12, "unlocked": false},
+    {"name": "Stilt_Retractable",       "cost": 12, "unlocked": false},
+    {"name": "Stilt_Max_Length",        "cost": 10, "unlocked": false},
+    {"name": "Stilt_Motorized",         "cost": 24, "unlocked": false},
+    {"name": "Stilt_Tag_Tip",           "cost": 6,  "unlocked": false},
+    {"name": "Stilt_Stun_Tip",          "cost": 10, "unlocked": false},
+    {"name": "Thruster_Unlock",         "cost": 8,  "unlocked": false},
+    {"name": "Thruster_Jet",            "cost": 6,  "unlocked": false},
+    {"name": "Thruster_Jet_Accel",      "cost": 8,  "unlocked": false},
+    {"name": "Thruster_Jet_Duration",   "cost": 8,  "unlocked": false},
+    {"name": "Thruster_Prop",           "cost": 12, "unlocked": false},
+    {"name": "Thruster_Prop_Speed",     "cost": 8,  "unlocked": false},
+    {"name": "Thruster_Prop_Duration",  "cost": 8,  "unlocked": false},
+    {"name": "Thruster_Throttle_Control","cost": 10,"unlocked": false},
+    {"name": "Platform_Unlock",         "cost": 8,  "unlocked": false},
+    {"name": "Platform_Cooldown",       "cost": 6,  "unlocked": false},
+    {"name": "Platform_Duration",       "cost": 8,  "unlocked": false},
+    {"name": "Platform_Capacity",       "cost": 6,  "unlocked": false},
+    {"name": "Platform_SpeedBoost",     "cost": 16, "unlocked": false},
+    {"name": "Tentacle_Unlock",         "cost": 16, "unlocked": false},
+    {"name": "Tentacle_Efficiency",     "cost": 12, "unlocked": false},
+    {"name": "Tentacle_Charge_Rate",    "cost": 12, "unlocked": false},
+    {"name": "Tentacle_Power_Claw",     "cost": 16, "unlocked": false},
+    {"name": "Tentacle_Strider",        "cost": 40, "unlocked": false},
+    {"name": "Tentacle_Crawler",        "cost": 40, "unlocked": false},
+    {"name": "Blaster_Standard_Unlock", "cost": 16, "unlocked": false},
+    {"name": "Blaster_Charge_Unlock",   "cost": 24, "unlocked": false},
+    {"name": "Blaster_LongBlaster_Unlock","cost": 24,"unlocked": false},
+    {"name": "Blaster_Lobber_Unlock",   "cost": 40, "unlocked": false},
+    {"name": "Blaster_MegaCharge_Unlock","cost": 32,"unlocked": false},
+    {"name": "AirControl_AirJuke_Unlock","cost": 16,"unlocked": false},
+    {"name": "AirControl_AirJuke_Speed","cost": 12, "unlocked": false},
+    {"name": "AirControl_AirGrab_Unlock","cost": 24,"unlocked": false},
+    {"name": "AirControl_AirGrab_Speed","cost": 16, "unlocked": false},
+    {"name": "AirControl_AirGrab_HoldTime","cost": 16,"unlocked": false},
+    {"name": "AirControl_Zipline_Unlock","cost": 24,"unlocked": false},
+    {"name": "AirControl_Zipline_Speed","cost": 16, "unlocked": false},
+    {"name": "Dash_Yoyo_Unlock",        "cost": 8,  "unlocked": false},
+    {"name": "Dash_Yoyo_Speed",         "cost": 6,  "unlocked": false},
+    {"name": "Dash_Yoyo_Range",         "cost": 6,  "unlocked": false},
+    {"name": "Dash_Yoyo_Cooldown",      "cost": 8,  "unlocked": false},
+    {"name": "Dash_Yoyo_Dynamic",       "cost": 8,  "unlocked": false},
+    {"name": "Dash_Yoyo_Tag",           "cost": 10, "unlocked": false}
+  ]
+}
